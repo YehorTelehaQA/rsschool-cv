@@ -1,1 +1,2 @@
-https://github.com/YehorTelehaQA/rsschool-cv/
+
+https://github.com/YehorTelehaQA/rsschool-cv
