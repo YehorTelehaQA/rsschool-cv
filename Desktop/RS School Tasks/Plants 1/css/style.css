@@ -306,3 +306,215 @@ left: 867px;
   color: #636060;
   
 }
+.service_wrapper 
+{
+  position: absolute;
+  width: 1440px;
+  height: 1300px;
+  left: 0px;
+  top: 1332px;
+  
+  background: #EDF2EC;
+}
+.services_content
+{
+font-family: 'Inika';
+font-style: normal;
+
+width: 1007px;
+height: 94px;
+left: 109px;
+top: 40px;
+display: flex;
+flex-wrap:wrap;
+
+
+margin-left:109px;
+margin-bottom: 90px;
+margin-top: 40px;
+margin-right:324px;
+
+
+
+}
+.service_and_project_text
+{
+
+font-weight: 400;
+font-size: 40px;
+line-height: 52px;
+width: 306px;
+height: 94px;
+left: 109px;
+top: 40px;
+color: #499A18;
+}
+.gardens_button-border 
+{
+box-sizing: border-box;
+
+position: absolute;
+width: 161px;
+height: 50px;
+left: 557px;
+top: 69px;
+
+border: 1px solid #E06733;
+border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.lawn_button-border
+{
+box-sizing: border-box;
+
+position: absolute;
+width: 161px;
+height: 50px;
+left: 756px;
+top: 69px;
+
+border: 1px solid #E06733;
+border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.planting_button-border 
+{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 161px;
+  height: 50px;
+  left: 955px;
+  top: 69px;
+  
+  border: 1px solid #E06733;
+  border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.gardens-button
+{
+  
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-decoration: none;
+  
+  
+  color: #E06733;
+}
+.lawn-button
+{
+  
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-decoration: none;
+  
+  
+  color: #E06733;
+}
+.planting-button
+{
+  
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-decoration: none;
+  
+  
+  color: #E06733;
+}
+.services_section 
+{
+position: absolute;
+width: 1222px;
+height: 955px;
+left: 109px;
+top: 224px;
+background: #EDF2EC;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+
+}
+.first_image
+{
+ 
+  width: 329px;
+  height: 350px;
+  left: 110px;
+  top: 224px;
+ 
+  background: url(pexels-frank-meriño-3612089.jpg);
+  border-radius: 20px 20px 0px 0px;
+  
+ 
+}
+
+figure {
+  box-sizing: border-box;
+
+
+width: 330px;
+height: 100px;
+left: 109px;
+top: 574px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+
+border: 1px solid #E3E1D5;
+border-radius: 0px 0px 20px 20px;
+
+}
+p:nth-of-type(1)
+{
+width: 120px;
+height: 24px;
+left: 214px;
+top: 584px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 10px;
+
+color: #E06733;
+
+
+
+}
+p:nth-of-type(2)
+{
+  width: 267.19px;
+  height: 20px;
+  left: 139.91px;
+  top: 618px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  
+  margin-bottom: 36px;
+  
+  
+  color: #717171;
+}
