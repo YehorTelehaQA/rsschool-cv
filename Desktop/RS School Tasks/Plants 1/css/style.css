@@ -113,6 +113,10 @@ font-style: normal;
 display: flex;
 align-items: flex-end;
 flex-wrap: wrap;
+margin-top: 62px;
+margin-bottom: 63px;
+margin-right: 109px;
+margin-left: 109px;
 
 
 
@@ -135,8 +139,11 @@ top: 62px;
   font-weight: 700;
   font-size: 45px;
   line-height: 50px;
+  margin-top: 36px;
+  margin-bottom: 42px;
+
   
-  margin-right: 109px;
+  
   
   
   
@@ -157,9 +164,8 @@ span {
   font-weight: 400;
   font-size: 20px;
   line-height: 35px;
-  margin-right: 133px;
-  margin-top:42px;
-  
+  margin-bottom:48px;
+
   
   
   
@@ -185,14 +191,15 @@ top: 394px;
 display: flex;
 justify-content: center;
 align-items: center;
-margin-right:391px;
-margin-bottom: 31px;
-margin-top:48px;
 border: 2px solid #E06733;
 border-radius: 10px;
 
 border: 2px solid #E06733;
 border-radius: 10px;
+margin-bottom: 32px;
+margin-right: 391px;
+
+
 }
 .leafs_image
 {
@@ -201,9 +208,7 @@ width: 448.8px;
 height: 407.36px;
 left: 109px;
 top: 62px;
-margin-bottom: 63px;
-margin-top: 62px;
-margin-left:109px
+
 
 }
 .right-section 
@@ -213,7 +218,91 @@ width: 549px;
 height: 340px;
 left: 782px;
 top: 98px;
+}
+.about_wrapper
+{
+  font-family: 'Inika';
+  font-style: normal;
+  position:absolute;
+width: 1440px;
+height: 666px;
+left: 0px;
+top: 666px;
+
+background: #FFFFFF;
+}
+.about_section
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 93px;
+  margin-bottom: 94px;
+  margin-right: 109px;
+  margin-left: 109px;
+  
+
+
+width: 1222px;
+height: 479px;
+left: 109px;
+top: 93px;
+}
+.plant_image
+{
+align-self: flex-end;
+width: 464px;
+height: 479px;
+left: 867px;
+
+
 
 
 }
+.profi_text
+{
+  
+  width: 463px;
+  height: 102px;
+  left: 109px;
+  top: 161px;
+  
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  margin-top:68px;
+  margin-right: 295px;
 
+  
+  
+  
+  color: #499A18;
+}
+.orange_text 
+{
+  color: #E06733
+}
+.lorem_about_text 
+{
+  
+  width: 605px;
+  height: 208px;
+  left: 109px;
+  top: 303px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  
+  margin-bottom: 61px;
+  margin-top:40px;
+  margin-right: 153px;
+ 
+ 
+  
+  color: #636060;
+  
+}
