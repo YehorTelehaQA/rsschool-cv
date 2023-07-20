@@ -82,6 +82,8 @@
     font-size: 30px;
     font-weight: 400;
     line-height: 50px;
+    letter-spacing: 0.02em;
+    text-align: left;
     color: #FFFFFF;
   }
   .nav-list a
@@ -93,3 +95,40 @@
     color: #FFFFFF;
   }
   
+  .wrapper_welcome
+  {
+    
+    width: 1440px;
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+  }
+  .background_container
+  {
+    position: absolute;
+    width: 600px;
+    height: 220px;
+    background-color: #0C0C0E;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .welcome_img {
+    position: relative;
+    z-index: 0;
+  }
+  
+  #welcome-headline {
+    position: relative;
+    z-index: 2;
+    color: #FFFFFF;
+    font-family: "Forum";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+  }
