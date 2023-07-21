@@ -132,3 +132,59 @@
     text-transform: uppercase;
     text-align: center;
   }
+  .about_welcome
+  {
+    width: 1440px;
+    display:flex;
+    justify-content: center;
+  }
+  .section_title
+  {
+    position: relative;
+    
+  }
+  .section_title::after {
+    content: "";
+    position: absolute;
+    width: 50px; 
+    height: 1px;
+    background-color:#0C0C0E;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .about-text
+  {
+    width: 1440px;
+    margin-top: 40px;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    color:#000000;
+  }
+  .about_images_wrapper
+  {
+    width: 1440px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .slide_pagination
+  {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    background-color:#0C0C0E;
+    margin-right: 10px;
+  }
+  .slide_pagination:last-child {
+    margin-right: 0; 
+  }
+  .wrapper_pagination
+  {
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
