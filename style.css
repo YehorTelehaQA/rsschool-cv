@@ -456,6 +456,19 @@
     width: 438px;
     height: 520px
   }
+  .nav-menu-coffee
+  {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .nav-menu-deserts
+  {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
   .nav-list-headline
   {
     color: #BB945F;
@@ -498,7 +511,6 @@
     height: 1px;
     background-color: #0C0C0E;
     margin-right: 60px;
-    margin-left: 60px;
     width: 100px;
     flex-grow: 1;
   }
