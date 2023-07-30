@@ -835,3 +835,120 @@ p
   margin-left: 20px;
   margin-bottom: 40px;
 }
+.footer
+{
+  width: 1440px;
+  height: 250px;
+  background-color:#0C0C0E;
+}
+.top-content_footer
+{
+  width: 1440px;
+  height: 90px;
+  display:flex;
+  justify-content: space-between;
+}
+.address_footer
+{
+  font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+color:#FFFFFF;
+width: 229px;
+height: 40px;
+}
+.footer_social-icons
+{
+width: 102px;
+height: 24px;
+gap: 15px;
+display: flex;
+flex-direction: row;
+margin-top: 18px;
+}
+.schedule
+{
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+color: #FFFFFF;
+}
+.top-content-right-container
+{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.top-content-left-container
+{
+  margin-right: 20px;
+}
+#weekend-days-schedule
+{
+  margin-top: 10px;
+}
+.low-content_footer
+{
+  width: 1440px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 44px;
+  margin-top: 74px;
+}
+.year-of-creation
+{
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 2px;
+color: #FFFFFF;
+
+}
+.course-link
+{
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 2px;
+color: #FFFFFF;
+cursor: pointer;
+}
+.course-link a
+{
+  text-decoration: none;
+  color: inherit;
+}
+.github-link
+{
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 2px;
+color: #FFFFFF;
+cursor: pointer;
+text-decoration:none;
+}
+.github-link a
+{
+  text-decoration: none;
+  color: inherit;
+}
+
+.low-content_footer::before {
+  content: "";
+  width: 1400px;
+  border: 1px solid #FFFFFF;
+  display: flex;
+  position: absolute;
+  align-self: center;
+ 
+  margin-top: -30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
