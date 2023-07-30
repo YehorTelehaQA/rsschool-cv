@@ -7,6 +7,11 @@
      src: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf");
    }
 
+   
+   .html {
+    scroll-behavior: smooth; 
+  }
+
    .container {
     width: 1440px;
     height: 90px;
@@ -72,8 +77,8 @@
   .nav-list a:hover
   {
     cursor: pointer;
-    font-weight: bold;
     text-decoration: none;
+    color: #BB945F;
   }
 
   h1
@@ -334,12 +339,13 @@
     z-index: 1;
   }
  
-  #item
+  .item
   {
     margin-left: 20px;
-
   }
-  .card_headline
+  
+  
+  #card_headline
   {
     display: flex;
     font-family: Forum;
@@ -355,7 +361,7 @@
     text-transform: capitalize;
   }
 
-  .card_headline::before {
+  #card_headline::before {
     content: "";
     position: absolute;
     width: 60px;
@@ -376,7 +382,7 @@
     padding: 0px;
     text-transform: uppercase;
   }
-  .book_author
+  #book_author
   {
     font-family: Inter;
     font-size: 15px;
@@ -388,7 +394,7 @@
     padding: 0px;
     text-transform: capitalize
   }
-  .book_description
+  #book_description
   {
     font-family: Inter;
     font-size: 15px;
