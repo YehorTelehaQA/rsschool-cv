@@ -492,6 +492,7 @@
     margin: 0;
     padding: 0;
     width: 100%;
+    list-style-type: none;
   }
   .nav-menu-deserts
   {
@@ -499,6 +500,7 @@
     padding: 0;
     width: 100%;
     transform: translateX(-40px);
+    list-style-type: none;
   }
 
   .nav-list-headline
