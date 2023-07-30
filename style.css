@@ -317,7 +317,7 @@
     margin-right: 20px;
     width: 1440px;
     height: 1439px;
-
+    
   }
   
   .books_container > * {
@@ -333,21 +333,16 @@
     flex-direction: column;
     align-items: flex-start;
     margin-top: 40px; 
-    margin-left: 20px;
     position: relative;
     gap:20px;
     z-index: 1;
   }
  
-  .item
-  {
-    margin-left: 20px;
-
-  }
+ 
 
   
   
-  #card_headline
+  .card_headline
   {
     display: flex;
     font-family: Forum;
@@ -361,9 +356,10 @@
     margin-top: 20px;
     position: relative;
     text-transform: capitalize;
+    margin-left: 20px;
   }
 
-  #card_headline::before {
+  .card_headline::before {
     content: "";
     position: absolute;
     width: 60px;
@@ -384,7 +380,7 @@
     padding: 0px;
     text-transform: uppercase;
   }
-  #book_author
+  .book_author
   {
     font-family: Inter;
     font-size: 15px;
@@ -394,9 +390,10 @@
     color:#000000;
     margin: 0px;
     padding: 0px;
-    text-transform: capitalize
+    text-transform: capitalize;
+    margin-left: 20px;
   }
-  #book_description
+  .book_description
   {
     font-family: Inter;
     font-size: 15px;
@@ -409,8 +406,9 @@
     padding: 0px;
     text-transform: capitalize;
     width: 65%;
+    margin-left: 20px;
   }
-  #buy-book_button
+  .buy-book_button
   {
     font-family: Inter;
     font-size: 10px;
@@ -427,12 +425,14 @@
     position: absolute;
     bottom: 0;
     transition: background 0.4s;
+    margin-left: 20px;
   }
-  #buy-book_button:hover
+  .buy-book_button:hover
 {
   border: 1px solid #BB945F;
   background: #BB945F;
 }
+
 
   .book
   {
