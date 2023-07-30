@@ -342,7 +342,9 @@
   .item
   {
     margin-left: 20px;
+
   }
+
   
   
   #card_headline
@@ -408,7 +410,7 @@
     text-transform: capitalize;
     width: 65%;
   }
-  .buy-book_button
+  #buy-book_button
   {
     font-family: Inter;
     font-size: 10px;
@@ -426,7 +428,7 @@
     bottom: 0;
     transition: background 0.4s;
   }
-  .buy-book_button:hover
+  #buy-book_button:hover
 {
   border: 1px solid #BB945F;
   background: #BB945F;
