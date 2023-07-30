@@ -51,8 +51,12 @@
     display: flex;
     align-items: center;
     margin-right: 20px;
+    cursor: pointer;
   }
-  
+  .wrapper_icon:
+  {
+    
+  }
   
   .nav-list
   {
@@ -877,6 +881,8 @@ gap: 15px;
 display: flex;
 flex-direction: row;
 margin-top: 18px;
+list-style-type: none;
+padding: 0;
 }
 .schedule
 {
