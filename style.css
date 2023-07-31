@@ -199,9 +199,14 @@
     cursor: pointer;
     
   }
-  .slide_pagination:hover
+  .slide_pagination-active
   {
     background: #BB945F;
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    
   }
 
   .square_click-zone {
@@ -431,6 +436,29 @@
     transition: background 0.4s;
     margin-left: 20px;
   }
+  .buy-book_button-own {
+    position: absolute;
+    bottom: 15px;
+    color: #BB945F;
+    border: 1px solid #BB945F;
+    border-radius: 2px;
+    background: #FFFFFF;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 75px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: min(15px);
+    position: absolute;
+    bottom: 0;
+    transition: background 0.4s;
+    margin-left: 20px;
+}
   .buy-book_button:hover
 {
   border: 1px solid #BB945F;
