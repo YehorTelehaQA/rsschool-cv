@@ -11,6 +11,7 @@
    .html {
     scroll-behavior: smooth; 
   }
+  
 
    .container {
     width: 1440px;
@@ -19,6 +20,13 @@
     display: flex;
     justify-content: space-between;
   }
+  .page_wrapper
+  {
+      max-width: 1440px;
+      margin: 0 auto;
+  }
+  
+
   .header
   {
     width: 1440px;
